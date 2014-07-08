@@ -1,0 +1,20 @@
+package com.tt.pin.activity;
+
+import com.customize.listview.TtListView;
+import com.customize.listview.TtListViewFactory;
+import com.tt.pin.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class ListviewActivity extends Activity {
+	private TtListView ttListView;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.view_test);
+		ttListView = (TtListView) findViewById(R.id.my_list_view);
+		TtListViewFactory.create().showList(this, ttListView);
+	}
+}

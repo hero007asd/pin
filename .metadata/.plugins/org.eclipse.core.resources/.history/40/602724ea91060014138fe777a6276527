@@ -1,0 +1,16 @@
+package com.customize.listview;
+
+public class TtListViewFactory {
+	private TtListViewFactory() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	
+	public static TtListViewFactory create(){
+		TtListViewFactory tt = new TtListViewFactory();
+		return tt;
+	}
+	
+	
+
+}

@@ -29,7 +29,7 @@ public class TtListView extends ListView implements OnTouchListener,OnGestureLis
 		setOnTouchListener(this);
 	}
 	
-	public void setOnDeleteListener(OnDeleteListener l){
+	protected void setOnDeleteListener(OnDeleteListener l){
 		listener = l;
 	}
 

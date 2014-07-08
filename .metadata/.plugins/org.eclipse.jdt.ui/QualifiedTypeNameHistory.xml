@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.graphics.Canvas"/>
-<fullyQualifiedTypeName name="android.content.Context"/>
-<fullyQualifiedTypeName name="com.tommy.utils.ShowUtils"/>
-<fullyQualifiedTypeName name="org.webrtc.videoengineapp.WebRTCDemo"/>
-<fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="com.radiusnetworks.ibeaconreference.R"/>
 <fullyQualifiedTypeName name="android.widget.PopupWindow"/>
 <fullyQualifiedTypeName name="com.baiyiju.MainActivity"/>
@@ -26,7 +21,6 @@
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="android.widget.CheckBox"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
-<fullyQualifiedTypeName name="android.util.Log"/>
 <fullyQualifiedTypeName name="android.widget.CompoundButton.OnCheckedChangeListener"/>
 <fullyQualifiedTypeName name="android.widget.CompoundButton"/>
 <fullyQualifiedTypeName name="com.tt.pin.view.expandlistview.ExpandListview"/>
@@ -45,19 +39,25 @@
 <fullyQualifiedTypeName name="android.widget.AbsListView.LayoutParams"/>
 <fullyQualifiedTypeName name="android.widget.RelativeLayout.LayoutParams"/>
 <fullyQualifiedTypeName name="android.widget.RelativeLayout"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.view.LayoutInflater"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="org.androidannotations.annotations.ViewById"/>
 <fullyQualifiedTypeName name="com.tt.pin.activity.ListviewActivity"/>
 <fullyQualifiedTypeName name="org.androidannotations.annotations.Click"/>
 <fullyQualifiedTypeName name="com.tt.pin.R.id"/>
-<fullyQualifiedTypeName name="com.customize.listview.TtListView"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.sql.Array"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.tt.pin.R"/>
 <fullyQualifiedTypeName name="com.tt.pin.R.layout"/>
 <fullyQualifiedTypeName name="com.customize.listview.TtListView.OnDeleteListener"/>
 <fullyQualifiedTypeName name="com.customize.listview.TtListViewAdapter"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.view.ViewStub"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.customize.listview.TtListView"/>
+<fullyQualifiedTypeName name="com.customize.listview.IttListView"/>
+<fullyQualifiedTypeName name="com.customize.listview.TtListViewFactory"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

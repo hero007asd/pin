@@ -73,12 +73,42 @@ public final class MainActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        myButton2 = ((Button) hasViews.findViewById(id.my_button2));
         myButton4 = ((Button) hasViews.findViewById(id.my_button4));
-        myButton3 = ((Button) hasViews.findViewById(id.my_button3));
-        tv1 = ((TextView) hasViews.findViewById(id.tv1));
         myButton5 = ((Button) hasViews.findViewById(id.my_button5));
+        myButton2 = ((Button) hasViews.findViewById(id.my_button2));
+        tv1 = ((TextView) hasViews.findViewById(id.tv1));
         myButton1 = ((Button) hasViews.findViewById(id.my_button1));
+        myButton3 = ((Button) hasViews.findViewById(id.my_button3));
+        {
+            View view = hasViews.findViewById(id.my_button4);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.gotoClick();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.my_button1);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.myButtont();
+                    }
+
+                }
+                );
+            }
+        }
         {
             View view = hasViews.findViewById(id.my_button5);
             if (view!= null) {
@@ -110,21 +140,6 @@ public final class MainActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.my_button1);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.myButtont();
-                    }
-
-                }
-                );
-            }
-        }
-        {
             View view = hasViews.findViewById(id.my_button2);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -139,35 +154,6 @@ public final class MainActivity_
                 );
             }
         }
-        {
-            View view = hasViews.findViewById(id.my_button4);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.gotoClick();
-                    }
-
-                }
-                );
-            }
-        }
-    }
-
-    @Override
-    public void updateTextView(final String ts) {
-        handler_.post(new Runnable() {
-
-
-            @Override
-            public void run() {
-                MainActivity_.super.updateTextView(ts);
-            }
-
-        }
-        );
     }
 
     @Override
@@ -178,6 +164,20 @@ public final class MainActivity_
             @Override
             public void run() {
                 MainActivity_.super.resetTextView();
+            }
+
+        }
+        );
+    }
+
+    @Override
+    public void updateTextView(final String ts) {
+        handler_.post(new Runnable() {
+
+
+            @Override
+            public void run() {
+                MainActivity_.super.updateTextView(ts);
             }
 
         }

@@ -3,9 +3,9 @@ package com.tt.pin.activity;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.customize.listview.IttListView;
 import com.customize.listview.TtListView;
-import com.customize.listview.TtListView.OnDeleteListener;
-import com.customize.listview.TtListViewAdapter;
+import com.customize.listview.TtListViewFactory;
 import com.tt.pin.R;
 
 import android.app.Activity;
@@ -13,7 +13,6 @@ import android.os.Bundle;
 
 public class ListviewActivity extends Activity {
 	private TtListView ttListView;
-	private TtListViewAdapter myAdapter;
 	private List<String> contentList = new ArrayList<String>();
 	
 	@Override
@@ -22,18 +21,11 @@ public class ListviewActivity extends Activity {
 		setContentView(R.layout.view_test);
 		initList();
 		ttListView = (TtListView) findViewById(R.id.my_list_view);
-		ttListView.setOnDeleteListener(new OnDeleteListener() {
-			@Override
-			public void onDelete(int index) {
-				contentList.remove(index);
-				myAdapter.notifyDataSetChanged();
-			}
-		});
-		myAdapter = new TtListViewAdapter(this, 0, contentList);
-		ttListView.setAdapter(myAdapter);
+		IttListView itt = TtListViewFactory.create();
+		itt.showSimpleTextList(this, ttListView, contentList);
 	}
 	
-    private void initList() {  
+	private void initList() {  
         contentList.add("Content Item 1");  
         contentList.add("Content Item 2");  
         contentList.add("Content Item 3");  
@@ -53,6 +45,6 @@ public class ListviewActivity extends Activity {
         contentList.add("Content Item 17");  
         contentList.add("Content Item 18");  
         contentList.add("Content Item 19");  
-        contentList.add("Content Item 20");  
+        contentList.add("Content Item 20"); 
     }
 }

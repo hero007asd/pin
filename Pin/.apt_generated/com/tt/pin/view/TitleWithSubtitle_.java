@@ -67,8 +67,8 @@ public final class TitleWithSubtitle_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        subtitle = ((TextView) hasViews.findViewById(id.subtitle));
         title = ((TextView) hasViews.findViewById(id.title));
+        subtitle = ((TextView) hasViews.findViewById(id.subtitle));
     }
 
 }

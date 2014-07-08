@@ -1,0 +1,9 @@
+package com.customize.listview;
+
+import java.util.List;
+
+import android.content.Context;
+
+public interface IttListView {
+	public void showSimpleTextList(Context ctx, TtListView view, final List<String> contentList);
+}

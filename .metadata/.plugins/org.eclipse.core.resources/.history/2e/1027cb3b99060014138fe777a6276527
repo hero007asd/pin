@@ -1,0 +1,7 @@
+package com.customize.listview;
+
+public interface IttListView {
+	public void showSimpleTextList(){
+		
+	}
+}

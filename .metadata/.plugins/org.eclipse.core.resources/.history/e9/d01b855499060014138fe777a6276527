@@ -1,0 +1,15 @@
+package com.customize.listview;
+
+import java.util.List;
+
+import android.content.Context;
+
+public interface IttListView {
+	/**
+	 * 显示简单的单行文本listview
+	 * @param ctx
+	 * @param view
+	 * @param contentList
+	 */
+	public void showSimpleTextList(Context ctx, TtListView view, final List<String> contentList);
+}

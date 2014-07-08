@@ -1,0 +1,68 @@
+package com.customize.listview;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.content.Context;
+import android.util.Log;
+
+import com.customize.listview.TtListView.OnDeleteListener;
+
+public class TtListViewFactory {
+
+	private TtListView ttListView;
+	private TtArrayAdapter myAdapter;
+	private List<String> contentList = new ArrayList<String>();
+	
+	private TtListViewFactory() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static TtListViewFactory create(){
+		TtListViewFactory tt = new TtListViewFactory();
+		return tt;
+	}
+	
+	public void showSimpleList(Context ctx, TtListView view){
+		initList();
+		ttListView = view;
+		if(null == ttListView) {
+			Log.i("abc", "i'm null");
+		}else{
+			Log.i("abc", ttListView.toString());
+		}
+		ttListView.setOnDeleteListener(new OnDeleteListener() {
+			@Override
+			public void onDelete(int index) {
+				contentList.remove(index);
+				myAdapter.notifyDataSetChanged();
+			}
+		});
+		myAdapter = new TtArrayAdapter(ctx, 0, contentList);
+		ttListView.setAdapter(myAdapter);
+	}
+	
+    private void initList() {  
+        contentList.add("Content Item 1");  
+        contentList.add("Content Item 2");  
+        contentList.add("Content Item 3");  
+        contentList.add("Content Item 4");  
+        contentList.add("Content Item 5");  
+        contentList.add("Content Item 6");  
+        contentList.add("Content Item 7");  
+        contentList.add("Content Item 8");  
+        contentList.add("Content Item 9");  
+        contentList.add("Content Item 10");  
+        contentList.add("Content Item 11");  
+        contentList.add("Content Item 12");  
+        contentList.add("Content Item 13");  
+        contentList.add("Content Item 14");  
+        contentList.add("Content Item 15");  
+        contentList.add("Content Item 16");  
+        contentList.add("Content Item 17");  
+        contentList.add("Content Item 18");  
+        contentList.add("Content Item 19");  
+        contentList.add("Content Item 20");  
+    }
+
+}
