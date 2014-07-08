@@ -1,0 +1,38 @@
+<!--?xml version=1.0 encoding=utf-8?-->
+<relativelayout android:background="#ffcb05" android:layout_height="50dp" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><button android:background="@drawable/back_button" android:id="@+id/button_left" android:layout_centervertical="true" android:layout_height="40dp" android:layout_marginleft="5dp" android:layout_width="60dp" android:text="Back" android:textcolor="#fff">
+ 
+    <textview android:id="@+id/title_text" android:layout_centerinparent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="This" android:textcolor="#fff" android:textsize="20sp" is="" title="\">
+ 
+</textview></button><喎�"http://www.2cto.com/kf/ware/vc/" target="_blank" class="keylink">vcmVsYXRpdmVsYXlvdXQ+PC9wcmU+CjxwPtTa1eK49rK8vtbOxLz+1tCjrM7Sw8fK18/ItqjS5cHL0ru49lJlbGF0aXZlTGF5b3V01/fOqrGzvrCyvL7Wo6zIu7rz1NrV4rj2sry+1sDvtqjS5cHL0ru49kJ1dHRvbrrN0ru49lRleHRWaWV3o6xCdXR0b26+zcrHserM4sC41tC1xLe1u9iwtMWlo6xUZXh0Vmlld77Nysex6sziwLjW0LXEz9TKvrXEzsTX1qGjPC9wPgo8cD6908/CwLS0tL2o0ru49lRpdGxlVmlld7zMs9DX1EZyYW1lTGF5b3V0o6y0+sLryOfPwsv5yr6jujwvcD4KPHA+Jm5ic3A7PC9wPgo8cHJlIGNsYXNzPQ=="brush:java;">
+public class TitleView extends FrameLayout {
+ 
+    private Button leftButton;
+ 
+    private TextView titleText;
+ 
+    public TitleView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        LayoutInflater.from(context).inflate(R.layout.title, this);
+        titleText = (TextView) findViewById(R.id.title_text);
+        leftButton = (Button) findViewById(R.id.button_left);
+        leftButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((Activity) getContext()).finish();
+            }
+        });
+    }
+ 
+    public void setTitleText(String text) {
+        titleText.setText(text);
+    }
+ 
+    public void setLeftButtonText(String text) {
+        leftButton.setText(text);
+    }
+ 
+    public void setLeftButtonListener(OnClickListener l) {
+        leftButton.setOnClickListener(l);
+    }
+ 
+}</relativelayout>

@@ -1,0 +1,6 @@
+<!--?xml version=1.0 encoding=utf-8?-->
+<relativelayout android:background="#ffcb05" android:layout_height="50dp" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"><button android:background="@drawable/back_button" android:id="@+id/button_left" android:layout_centervertical="true" android:layout_height="40dp" android:layout_marginleft="5dp" android:layout_width="60dp" android:text="Back" android:textcolor="#fff">
+ 
+    <textview android:id="@+id/title_text" android:layout_centerinparent="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="This" android:textcolor="#fff" android:textsize="20sp" is="" title="\">
+ 
+</textview></button></relativelayout>

@@ -1,0 +1,12 @@
+package com.tt.pin.view.expandlistview;
+
+import java.util.ArrayList;
+
+public class Parent {
+	private String name;
+	private String text1;
+	private String text2;
+	private String checkedType;
+	private boolean typed;
+	private ArrayList<Child> children;
+}

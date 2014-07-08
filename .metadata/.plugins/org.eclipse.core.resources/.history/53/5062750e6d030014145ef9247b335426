@@ -1,0 +1,7 @@
+package com.customize.listview;
+
+import android.widget.ArrayAdapter;
+
+public class TtListViewAdapter extends ArrayAdapter<T> {
+
+}

@@ -1,0 +1,13 @@
+package com.tt.pin.view.title;
+
+import android.content.Context;
+import android.view.View;
+
+public class TitleView extends View {
+
+	public TitleView(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+
+}

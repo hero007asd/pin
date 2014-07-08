@@ -1,0 +1,51 @@
+package com.customize.listview;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.GestureDetector;
+import android.view.GestureDetector.OnGestureListener;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.widget.ListView;
+
+public class TtListView extends ListView implements OnTouchListener,OnGestureListener{
+	
+	private GestureDetector
+
+	public TtListView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void onGesture(GestureOverlayView arg0, MotionEvent arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onGestureCancelled(GestureOverlayView arg0, MotionEvent arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onGestureEnded(GestureOverlayView arg0, MotionEvent arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onGestureStarted(GestureOverlayView arg0, MotionEvent arg1) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean onTouch(View arg0, MotionEvent arg1) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

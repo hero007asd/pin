@@ -1,0 +1,24 @@
+package com.tt.pin.view.title;
+
+import com.tt.pin.R;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.widget.Button;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+public class TitleView extends RelativeLayout {
+	
+	private Button left;
+	private TextView titleText;
+	
+	public TitleView(Context context, AttributeSet attrs) {
+		super(context, attrs);
+		LayoutInflater.from(context).inflate(R.layout.view_title, this);
+	}
+	
+	
+
+}

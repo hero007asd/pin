@@ -1,0 +1,15 @@
+package com.customize.listview;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+public class TtListViewAdapter extends ArrayAdapter<String> {
+
+	public TtListViewAdapter(Context context, int resource,
+			int textViewResourceId, List<String> objects) {
+		super(context, resource, textViewResourceId, objects);
+	}
+
+}

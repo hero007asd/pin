@@ -1,0 +1,7 @@
+package com.tt.pin.view.title;
+
+import android.view.View;
+
+public class TitleView extends View {
+
+}

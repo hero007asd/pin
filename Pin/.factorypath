@@ -1,0 +1,4 @@
+<factorypath>
+    <factorypathentry kind="WKSPJAR" id="/Pin/compile-libs/androidannotations-3.0.1.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="WKSPJAR" id="/Pin/libs/androidannotations-api-3.0.1.jar" enabled="true" runInBatchMode="false"/>
+</factorypath>

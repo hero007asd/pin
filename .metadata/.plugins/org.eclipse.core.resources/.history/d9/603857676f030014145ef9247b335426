@@ -1,0 +1,15 @@
+package com.tt.pin.activity;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.customize.listview.TtListView;
+import com.customize.listview.TtListViewAdapter;
+
+import android.app.Activity;
+
+public class ListviewActivity extends Activity {
+	private TtListView ttListView;
+	private TtListViewAdapter myAdapter;
+	private List<String> contentList = new ArrayList<String>();
+}

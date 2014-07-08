@@ -1,0 +1,10 @@
+package com.tt.pin.view.expandlistview;
+
+/**
+ * 保存子listview数据
+ * @author shitao.tommy
+ *
+ */
+public class Child {
+
+}
