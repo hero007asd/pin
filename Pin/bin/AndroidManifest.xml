@@ -27,6 +27,7 @@
         </activity>
         <activity android:name="com.tt.pin.view.expandlistview.ExpandListview"></activity>
         <activity android:name="com.tt.pin.activity.ListviewActivity"></activity>
+        <activity android:name="com.tt.pin.activity.PullToRefreshListActivity"></activity>
     </application>
 
 </manifest>

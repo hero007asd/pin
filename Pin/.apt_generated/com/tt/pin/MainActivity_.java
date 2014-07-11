@@ -73,12 +73,28 @@ public final class MainActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        myButton4 = ((Button) hasViews.findViewById(id.my_button4));
-        myButton5 = ((Button) hasViews.findViewById(id.my_button5));
-        myButton2 = ((Button) hasViews.findViewById(id.my_button2));
         tv1 = ((TextView) hasViews.findViewById(id.tv1));
+        myButton6 = ((Button) hasViews.findViewById(id.my_button6));
+        myButton2 = ((Button) hasViews.findViewById(id.my_button2));
         myButton1 = ((Button) hasViews.findViewById(id.my_button1));
         myButton3 = ((Button) hasViews.findViewById(id.my_button3));
+        myButton5 = ((Button) hasViews.findViewById(id.my_button5));
+        myButton4 = ((Button) hasViews.findViewById(id.my_button4));
+        {
+            View view = hasViews.findViewById(id.my_button5);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.gotoListview();
+                    }
+
+                }
+                );
+            }
+        }
         {
             View view = hasViews.findViewById(id.my_button4);
             if (view!= null) {
@@ -95,14 +111,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.my_button1);
+            View view = hasViews.findViewById(id.my_button6);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.myButtont();
+                        MainActivity_.this.pulltofresh();
                     }
 
                 }
@@ -110,14 +126,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.my_button5);
+            View view = hasViews.findViewById(id.my_button2);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.gotoListview();
+                        MainActivity_.this.stopClick();
                     }
 
                 }
@@ -140,14 +156,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.my_button2);
+            View view = hasViews.findViewById(id.my_button1);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.stopClick();
+                        MainActivity_.this.myButtont();
                     }
 
                 }

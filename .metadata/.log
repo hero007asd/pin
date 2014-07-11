@@ -7457,3 +7457,2795 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-08 20:15:30.605
 !MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+!SESSION 2014-07-10 17:05:30.306 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-10 17:05:45.649
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-10 17:05:45.780
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shitao.tommy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-10 17:06:05.308
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\Desktop\androidannotations-develop\examples\HelloWorldEclipse\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-10 17:06:05.333
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-10 17:06:06.294
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-10 17:06:06.312
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:40:23.262
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/PullToRefreshActivity/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1453)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-07-10 17:40:23.263
+!MESSAGE Resource '/PullToRefreshActivity/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:40:23.280
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/pulltorefresh/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1453)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-07-10 17:40:23.280
+!MESSAGE Resource '/pulltorefresh/res' does not exist.
+
+!ENTRY org.eclipse.jface 2 0 2014-07-10 17:44:48.244
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7deb54,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@84261f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e50e6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4160e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@158b0d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16b26df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5c2a87,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e74739,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ec3a97,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@184674c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@face8d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Bracket,
+		Go to Matching Bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@348cf8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@ea106,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1289d5e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6dadaa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a4990c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3bef77,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d7187f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e69df6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6b24a3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8c9a8e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1ef690a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f71c69,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@10c3e8d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-10 17:44:48.245
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16a4fbd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6f2a6f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:59:15.256
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:59:15.312
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:59:15.324
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:59:15.331
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:59:15.347
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 17:59:15.368
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:39.663
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:39.721
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.445
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.449
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.451
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.452
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.452
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.453
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:55.453
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:00:56.921
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.202
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.206
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.208
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.208
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.209
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.209
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.210
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-10 18:01:19.218
+!MESSAGE Failed to load properties file for project 'parent'
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:51.115
+!MESSAGE Exception occurred while saving project preferences: /extra-listfragment/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshListFragment\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:511)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:51.115
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshListFragment\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:51.117
+!MESSAGE Exception occurred while saving project preferences: /extra-listfragment/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshListFragment\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:51.118
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshListFragment\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:51.119
+!MESSAGE Exception occurred while saving project preferences: /extra-listfragment/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshListFragment\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:51.119
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshListFragment\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:51.314
+!MESSAGE Exception occurred while saving project preferences: /extra-viewpager/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshViewPager\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:511)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:51.314
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshViewPager\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:51.318
+!MESSAGE Exception occurred while saving project preferences: /extra-viewpager/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshViewPager\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:51.318
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshViewPager\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:51.320
+!MESSAGE Exception occurred while saving project preferences: /extra-viewpager/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshViewPager\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:51.320
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\extras\PullToRefreshViewPager\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:52.448
+!MESSAGE Exception occurred while saving project preferences: /library/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\library\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:511)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:52.448
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\library\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:52.449
+!MESSAGE Exception occurred while saving project preferences: /library/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\library\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:52.449
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\library\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:52.450
+!MESSAGE Exception occurred while saving project preferences: /library/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\library\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:52.450
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\library\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:52.520
+!MESSAGE Exception occurred while saving project preferences: /sample/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\sample\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:511)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:52.520
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\sample\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:52.521
+!MESSAGE Exception occurred while saving project preferences: /sample/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\sample\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:513)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:52.522
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\sample\.settings'.
+
+!ENTRY org.eclipse.core.resources 4 4 2014-07-10 18:17:52.522
+!MESSAGE Exception occurred while saving project preferences: /sample/.settings/org.eclipse.jdt.core.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\sample\.settings'.
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:47)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:95)
+	at org.eclipse.core.internal.resources.ProjectPreferences$1.run(ProjectPreferences.java:566)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:590)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:465)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:350)
+	at org.eclipse.jdt.internal.core.JavaProject.setOption(JavaProject.java:2953)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.checkAndFixCompilerCompliance(ProjectHelper.java:515)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProjectClasspathEntries(ProjectHelper.java:420)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.fixProject(ProjectHelper.java:294)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:837)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:660)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:590)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.execute(NewProjectCreator.java:400)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.core.resources 4 272 2014-07-10 18:17:52.523
+!MESSAGE A resource already exists on disk 'C:\Users\shitao.tommy\Desktop\Android-PullToRefresh-master\sample\.settings'.
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2014-07-10 18:43:26.537
+!MESSAGE No valid Android XML Editor Delegate found for file /library/pom.xml [Res null, type null]
+!SESSION 2014-07-11 14:36:33.787 -----------------------------------------------
+eclipse.buildId=v22.3.0-887826
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2014-07-11 14:36:43.069
+!MESSAGE No valid Android XML Editor Delegate found for file /library/pom.xml [Res null, type null]
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-11 14:36:50.244
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-07-11 14:36:50.245
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\shitao.tommy'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7d9a10,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@93d840,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@db07d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1db6fe3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bdf316,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11d0acc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@a23711,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9150c5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cd53fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13de30a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@144aba4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Bracket,
+		Go to Matching Bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18e0c3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@160cee6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3f9f3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@af775d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1c5a0f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cb5f38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@75b243,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d86f12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1fc4ae8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1641690,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@155264c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@551e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1fa846f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-07-11 14:36:59.347
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@142d4a5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@151c665,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 14:37:18.631
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\Desktop\androidannotations-develop\examples\HelloWorldEclipse\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 14:37:18.655
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 14:37:19.433
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 14:37:19.443
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 15:26:06.185
+!MESSAGE Failed to load properties file for project 'tt-common-view'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.270
+!MESSAGE pull_to_refresh_header_horizontal.xml: Couldn't resolve resource @dimen/header_footer_left_right_padding
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.272
+!MESSAGE pull_to_refresh_header_horizontal.xml: Couldn't resolve resource @dimen/header_footer_top_bottom_padding
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.274
+!MESSAGE pull_to_refresh_header_horizontal.xml: Couldn't resolve resource @dimen/header_footer_left_right_padding
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.276
+!MESSAGE pull_to_refresh_header_horizontal.xml: Couldn't resolve resource @dimen/header_footer_top_bottom_padding
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.278
+!MESSAGE pull_to_refresh_header_horizontal.xml: "@dimen/header_footer_left_right_padding" in attribute "paddingLeft" is not a valid format.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.278
+!MESSAGE pull_to_refresh_header_horizontal.xml: "@dimen/header_footer_top_bottom_padding" in attribute "paddingTop" is not a valid format.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.279
+!MESSAGE pull_to_refresh_header_horizontal.xml: "@dimen/header_footer_left_right_padding" in attribute "paddingRight" is not a valid format.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-07-11 17:42:43.280
+!MESSAGE pull_to_refresh_header_horizontal.xml: "@dimen/header_footer_top_bottom_padding" in attribute "paddingBottom" is not a valid format.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 17:57:05.780
+!MESSAGE activity_ptr_list.xml: Different corner sizes are not supported in Path.addRoundRect.
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.096
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.194
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.197
+!MESSAGE Start processing for 10 annotations on 15 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.274
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.278
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.281
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.288
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.358
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.359
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.363
+!MESSAGE Validating with EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.364
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.366
+!MESSAGE Validating with ViewByIdHandler: [myButton5, thirdTitle, myButton2, secondTitle, subtitle, firstTitle, tv1, myButton3, title, myButton1, myButton4]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.369
+!MESSAGE Validating with ClickHandler: [void myButtont() , void gotoClick() , void gotoListview() , void stopClick() , void resetClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.373
+!MESSAGE Validating with RootContextHanlder: [ctx]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.375
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.376
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.376
+!MESSAGE Validating with UiThreadHandler: [void updateMainUi() , void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.377
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() , public void dosomethingInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.406
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.407
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.474
+!MESSAGE Processing root elements EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.476
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.496
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.518
+!MESSAGE Number of files generated by AndroidAnnotations: 4
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.531
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.555
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.603
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.608
+!MESSAGE Generating class: com.tt.pin.task.TestBgTask_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.613
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.620
+!MESSAGE Time measurements: [Whole Processing = 423 ms], [Process Annotations = 141 ms], [Generate Sources = 101 ms], [Extract Annotations = 64 ms], [Find R Classes = 53 ms], [Validate Annotations = 20 ms], [Extract Manifest = 6 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.620
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.644
+!MESSAGE Start processing for 0 annotations on 4 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.645
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.645
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.646
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.646
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:26.647
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:27.173
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:27.175
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.309
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.315
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.317
+!MESSAGE Start processing for 6 annotations on 2 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.327
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.330
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.331
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.333
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.339
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.339
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.340
+!MESSAGE Validating with ViewByIdHandler: [tv1, myButton3, myButton2, myButton5, myButton1, myButton4]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.341
+!MESSAGE Validating with ClickHandler: [void myButtont() , void gotoListview() , void stopClick() , void gotoClick() , void resetClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.343
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.344
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.345
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.346
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.346
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.350
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.352
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.352
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.353
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.395
+!MESSAGE Time measurements: [Whole Processing = 78 ms], [Generate Sources = 44 ms], [Extract Annotations = 9 ms], [Find R Classes = 7 ms], [Validate Annotations = 7 ms], [Process Annotations = 6 ms], [Extract Manifest = 4 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.396
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.398
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.398
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.399
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.399
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.400
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:01:40.400
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:04:36.842
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:04:36.844
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:05:43.875
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:05:43.877
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.675
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.677
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.678
+!MESSAGE Start processing for 8 annotations on 14 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.694
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.696
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.696
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.698
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.703
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.704
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.705
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.705
+!MESSAGE Validating with ViewByIdHandler: [thirdTitle, firstTitle, tv1, title, myButton1, myButton2, myButton3, myButton4, myButton5, secondTitle, subtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.707
+!MESSAGE Validating with ClickHandler: [void resetClick() , void gotoListview() , void myButtont() , void gotoClick() , void stopClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.709
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.710
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.711
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.711
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.712
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.712
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.715
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.716
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.717
+!MESSAGE Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1efd216, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@b278e3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@18babd6, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@bea2af, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1c9b8e3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@16893, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@18ce816, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@77ce56, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1a7d671, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@789006, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1aaaa36]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.719
+!MESSAGE Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1493320, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@bbb91c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@b0454, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@75deaa, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@936fa4]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.720
+!MESSAGE Processing enclosed elements with BeanHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1d92420]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.720
+!MESSAGE Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@18d28f]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.722
+!MESSAGE Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1869c2e, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@6da59b]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.723
+!MESSAGE Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@953dc7]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.724
+!MESSAGE Number of files generated by AndroidAnnotations: 3
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.724
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.725
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.750
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.779
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.797
+!MESSAGE Time measurements: [Whole Processing = 118 ms], [Generate Sources = 73 ms], [Extract Annotations = 14 ms], [Process Annotations = 11 ms], [Validate Annotations = 9 ms], [Find R Classes = 6 ms], [Extract Manifest = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.798
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.817
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.818
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.819
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.819
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.820
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:15.820
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.052
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.055
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.056
+!MESSAGE Start processing for 10 annotations on 17 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.071
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.073
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.074
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.076
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.081
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.082
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.083
+!MESSAGE Validating with EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.084
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.084
+!MESSAGE Validating with ViewByIdHandler: [thirdTitle, myButton1, myButton3, myButton2, myButton5, title, secondTitle, subtitle, firstTitle, tv1, myButton4]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.086
+!MESSAGE Validating with ClickHandler: [void stopClick() , void gotoClick() , void resetClick() , void gotoListview() , void myButtont() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.087
+!MESSAGE Validating with RootContextHanlder: [ctx]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.088
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.088
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.089
+!MESSAGE Validating with UiThreadHandler: [void updateMainUi() , void resetTextView() , void updateTextView(java.lang.String) ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.090
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() , public void dosomethingInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.090
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.092
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.095
+!MESSAGE Processing root elements EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.096
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.097
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.099
+!MESSAGE Number of files generated by AndroidAnnotations: 4
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.100
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.100
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.106
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.110
+!MESSAGE Generating class: com.tt.pin.task.TestBgTask_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.113
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.116
+!MESSAGE Time measurements: [Whole Processing = 59 ms], [Generate Sources = 16 ms], [Extract Annotations = 14 ms], [Validate Annotations = 9 ms], [Process Annotations = 9 ms], [Find R Classes = 7 ms], [Extract Manifest = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.116
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.120
+!MESSAGE Start processing for 0 annotations on 4 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.121
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.121
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.122
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.122
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:19.123
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.564
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.566
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.614
+!MESSAGE Start processing for 8 annotations on 12 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.628
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.630
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.631
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.634
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.638
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.639
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.640
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.640
+!MESSAGE Validating with ViewByIdHandler: [myButton3, secondTitle, title, myButton4, thirdTitle, tv1, myButton1, myButton2, myButton5, firstTitle, subtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.668
+!MESSAGE Validating with ClickHandler: [void myButtont() , void resetClick() , void gotoListview() , void stopClick() , void gotoClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.669
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.670
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.671
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.671
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.672
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.672
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.675
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.675
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.676
+!MESSAGE Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@16f9a5c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1d5653a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1782106, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1fca592, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@e8caf5, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1b18edc, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@ee9dac, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1649c51, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@150aa93, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@5b047, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1a3871]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.678
+!MESSAGE Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@b3ae90, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@11003bd, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@fce3f9, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@db17eb, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ff7e28]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.678
+!MESSAGE Processing enclosed elements with BeanHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ff2c80]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.679
+!MESSAGE Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@cf4d33]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.680
+!MESSAGE Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@898f12, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@6595d8]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.680
+!MESSAGE Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1cb30fb]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.681
+!MESSAGE Number of files generated by AndroidAnnotations: 3
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.681
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.682
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.695
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.724
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.726
+!MESSAGE Time measurements: [Whole Processing = 112 ms], [Generate Sources = 44 ms], [Validate Annotations = 34 ms], [Extract Annotations = 14 ms], [Process Annotations = 9 ms], [Find R Classes = 7 ms], [Extract Manifest = 2 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.726
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.741
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.741
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.742
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.742
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.743
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:07:48.744
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.850
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.858
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.964
+!MESSAGE Start processing for 8 annotations on 11 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.980
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.982
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.983
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.986
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.990
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.991
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.992
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.993
+!MESSAGE Validating with ViewByIdHandler: [secondTitle, myButton1, myButton5, myButton3, title, firstTitle, tv1, thirdTitle, myButton4, myButton2, subtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.995
+!MESSAGE Validating with ClickHandler: [void myButtont() , void resetClick() , void gotoListview() , void stopClick() , void gotoClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.996
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.997
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.998
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.998
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:25.999
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.000
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.002
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.003
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.016
+!MESSAGE Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1213125, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@192ccf3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1006dd3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1462082, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1d2d919, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@19ae819, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@114a2e0, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@908908, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1d13c60, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@fbed37, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1be8317]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.017
+!MESSAGE Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1255374, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@58b651, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1f02a0c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@851054, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@29b662]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.018
+!MESSAGE Processing enclosed elements with BeanHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ab13ea]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.018
+!MESSAGE Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@98a585]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.019
+!MESSAGE Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@189eb6a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1f319d6]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.019
+!MESSAGE Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@68275c]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.020
+!MESSAGE Number of files generated by AndroidAnnotations: 3
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.020
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.021
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.033
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.053
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.054
+!MESSAGE Time measurements: [Whole Processing = 90 ms], [Generate Sources = 34 ms], [Process Annotations = 21 ms], [Extract Annotations = 14 ms], [Validate Annotations = 9 ms], [Find R Classes = 8 ms], [Extract Manifest = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.055
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.070
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.070
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.071
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.071
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.072
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.072
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.143
+!MESSAGE Start processing for 4 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.145
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.147
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.148
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.152
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.157
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.158
+!MESSAGE Validating with EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.158
+!MESSAGE Validating with RootContextHanlder: [ctx]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.159
+!MESSAGE Validating with UiThreadHandler: [void updateMainUi() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.160
+!MESSAGE Validating with BackgroundHandler: [public void dosomethingInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.160
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.161
+!MESSAGE Processing root elements EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.162
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.163
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.163
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.163
+!MESSAGE Generating class: com.tt.pin.task.TestBgTask_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.176
+!MESSAGE Time measurements: [Whole Processing = 33 ms], [Generate Sources = 13 ms], [Find R Classes = 8 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Process Annotations = 2 ms], [Extract Annotations = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.177
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.179
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.179
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.180
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.180
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.181
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:08:26.181
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:09:09.724
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:09:09.727
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.907
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.910
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.963
+!MESSAGE Start processing for 8 annotations on 12 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.980
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.982
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.983
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.986
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.992
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.993
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.994
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.994
+!MESSAGE Validating with ViewByIdHandler: [myButton3, secondTitle, subtitle, myButton1, tv1, myButton5, myButton4, thirdTitle, title, myButton2, firstTitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.996
+!MESSAGE Validating with ClickHandler: [void myButtont() , void stopClick() , void gotoListview() , void resetClick() , void gotoClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:08.998
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.000
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.000
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.001
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.002
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.002
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.004
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.005
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.005
+!MESSAGE Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@12d9afa, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@113f96e, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@fdc043, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@c65ce8, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@84cf15, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@5cd586, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1599c59, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@119c4ed, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@d48963, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1379c2d, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1ee8038]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.007
+!MESSAGE Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@143b1ad, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@16ed25a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@b42d17, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1c419a1, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@fc59fc]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.008
+!MESSAGE Processing enclosed elements with BeanHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@27d653]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.008
+!MESSAGE Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@799e41]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.009
+!MESSAGE Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@177b1f2, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@146019d]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.010
+!MESSAGE Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@11b2796]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.010
+!MESSAGE Number of files generated by AndroidAnnotations: 3
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.011
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.011
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.027
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.038
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.047
+!MESSAGE Time measurements: [Whole Processing = 84 ms], [Generate Sources = 37 ms], [Extract Annotations = 15 ms], [Validate Annotations = 10 ms], [Process Annotations = 9 ms], [Find R Classes = 8 ms], [Extract Manifest = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.048
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.071
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.072
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.072
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.073
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.073
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:18:09.074
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.162
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.164
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.165
+!MESSAGE Start processing for 6 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.175
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.177
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.178
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.195
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.201
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.202
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.202
+!MESSAGE Validating with ViewByIdHandler: [myButton1, myButton5, myButton2, myButton3, myButton4, tv1]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.205
+!MESSAGE Validating with ClickHandler: [void pulltofresh() , void myButtont() , void stopClick() , void gotoClick() , void gotoListview() , void resetClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.206
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.207
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.208
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.208
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.209
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.211
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.213
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.214
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.214
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.230
+!MESSAGE Time measurements: [Whole Processing = 64 ms], [Find R Classes = 23 ms], [Generate Sources = 16 ms], [Extract Annotations = 8 ms], [Validate Annotations = 8 ms], [Process Annotations = 5 ms], [Extract Manifest = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.230
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.232
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.233
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.233
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.234
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.234
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.235
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.272
+!MESSAGE Start processing for 4 annotations on 2 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.283
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.285
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.286
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.289
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.294
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.294
+!MESSAGE Validating with EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.295
+!MESSAGE Validating with RootContextHanlder: [ctx]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.295
+!MESSAGE Validating with UiThreadHandler: [void updateMainUi() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.296
+!MESSAGE Validating with BackgroundHandler: [public void dosomethingInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.297
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.297
+!MESSAGE Processing root elements EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.298
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.298
+!MESSAGE Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@556d8a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@ee3652, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@177ae78, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@8a9efe, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@cc6422, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1305daa]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.299
+!MESSAGE Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1b08015, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@ec9941, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1c0c0c7, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@10adfd3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1954c5a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@141a909]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.299
+!MESSAGE Processing enclosed elements with BeanHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@e71e52]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.300
+!MESSAGE Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@a90150, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@c7b4ce]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.300
+!MESSAGE Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@fc0ffa]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.301
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.301
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.302
+!MESSAGE Generating class: com.tt.pin.task.TestBgTask_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.303
+!MESSAGE Time measurements: [Whole Processing = 31 ms], [Extract Annotations = 9 ms], [Find R Classes = 8 ms], [Process Annotations = 5 ms], [Extract Manifest = 3 ms], [Validate Annotations = 3 ms], [Generate Sources = 2 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.304
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.305
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.306
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.306
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.306
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.307
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:24.307
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.007
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.009
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.010
+!MESSAGE Start processing for 6 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.019
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.022
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.022
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.025
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.030
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.031
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.031
+!MESSAGE Validating with ViewByIdHandler: [myButton3, myButton5, myButton1, myButton2, myButton4, tv1]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.033
+!MESSAGE Validating with ClickHandler: [void gotoListview() , void myButtont() , void stopClick() , void resetClick() , void gotoClick() , void pulltofresh() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.034
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.035
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.036
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.036
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.037
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.039
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.040
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.041
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.041
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.074
+!MESSAGE Time measurements: [Whole Processing = 63 ms], [Generate Sources = 33 ms], [Extract Annotations = 8 ms], [Find R Classes = 7 ms], [Validate Annotations = 6 ms], [Process Annotations = 4 ms], [Extract Manifest = 2 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.074
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.076
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.077
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.077
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.078
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.078
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:19:33.079
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.767
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.770
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.771
+!MESSAGE Start processing for 6 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.781
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.783
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.784
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.787
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.793
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.794
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.795
+!MESSAGE Validating with ViewByIdHandler: [myButton6, myButton1, myButton4, myButton2, myButton5, myButton3, tv1]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.797
+!MESSAGE Validating with ClickHandler: [void gotoListview() , void gotoClick() , void resetClick() , void myButtont() , void pulltofresh() , void stopClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.798
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.799
+!MESSAGE Validating with UiThreadHandler: [void resetTextView() , void updateTextView(java.lang.String) ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.800
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.800
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.801
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.802
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.804
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.805
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.805
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.819
+!MESSAGE Time measurements: [Whole Processing = 47 ms], [Generate Sources = 14 ms], [Find R Classes = 9 ms], [Extract Annotations = 8 ms], [Validate Annotations = 8 ms], [Process Annotations = 4 ms], [Extract Manifest = 2 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.820
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.822
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.822
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.823
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.823
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.824
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.824
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.855
+!MESSAGE Start processing for 4 annotations on 2 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.866
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.868
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.869
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.872
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.877
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.878
+!MESSAGE Validating with EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.878
+!MESSAGE Validating with RootContextHanlder: [ctx]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.879
+!MESSAGE Validating with UiThreadHandler: [void updateMainUi() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.880
+!MESSAGE Validating with BackgroundHandler: [public void dosomethingInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.880
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.881
+!MESSAGE Processing root elements EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.881
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.882
+!MESSAGE Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@18dcae2, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@80b0dd, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@2e95c, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@cd13ac, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@db92f7, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@13b7509, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@126ce6a]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.882
+!MESSAGE Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1e83eee, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7d98d6, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1e73c4d, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1525381, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1259343, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7bbacf]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.883
+!MESSAGE Processing enclosed elements with BeanHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@72c4a8]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.883
+!MESSAGE Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@27f9bf, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1bd4660]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.884
+!MESSAGE Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@116172c]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.885
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.885
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.886
+!MESSAGE Generating class: com.tt.pin.task.TestBgTask_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.887
+!MESSAGE Time measurements: [Whole Processing = 33 ms], [Extract Annotations = 10 ms], [Find R Classes = 8 ms], [Validate Annotations = 4 ms], [Process Annotations = 4 ms], [Extract Manifest = 3 ms], [Generate Sources = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.888
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.889
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.890
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.890
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.891
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.891
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:20:15.891
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:21:01.244
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:21:01.246
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.core.resources 4 2 2014-07-11 18:22:00.970
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:663)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 18:22:01.049
+!MESSAGE Unknown error: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getFullResCfs(ChangedFileSetHelper.java:156)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:298)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 2 2014-07-11 18:22:01.081
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:663)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 18:22:01.085
+!MESSAGE Unknown error: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getFullResCfs(ChangedFileSetHelper.java:156)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:298)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 2 2014-07-11 18:22:01.093
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getTextSymbols(ChangedFileSetHelper.java:124)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:399)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 18:22:01.096
+!MESSAGE Unknown error: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getFullResCfs(ChangedFileSetHelper.java:156)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:298)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 75 2014-07-11 18:22:01.124
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 4 75 2014-07-11 18:22:01.124
+!MESSAGE Errors running builder 'Android Pre Compiler' on project 'extra-listfragment'.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:663)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.android.ide.eclipse.adt 4 75 2014-07-11 18:22:01.124
+!MESSAGE Errors running builder 'Android Pre Compiler' on project 'extra-viewpager'.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:663)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.android.ide.eclipse.adt 4 75 2014-07-11 18:22:01.124
+!MESSAGE Errors running builder 'Android Pre Compiler' on project 'sample'.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getTextSymbols(ChangedFileSetHelper.java:124)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:399)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 2 2014-07-11 18:22:06.516
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getTextSymbols(ChangedFileSetHelper.java:124)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:399)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 18:22:06.630
+!MESSAGE Unknown error: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getFullResCfs(ChangedFileSetHelper.java:156)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:298)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 75 2014-07-11 18:22:06.634
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 4 75 2014-07-11 18:22:06.634
+!MESSAGE Errors running builder 'Android Pre Compiler' on project 'sample'.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getTextSymbols(ChangedFileSetHelper.java:124)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:399)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 2 2014-07-11 18:22:09.670
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getTextSymbols(ChangedFileSetHelper.java:124)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:399)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-07-11 18:22:09.829
+!MESSAGE Unknown error: java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getFullResCfs(ChangedFileSetHelper.java:156)
+	at com.android.ide.eclipse.adt.internal.build.builders.PostCompilerBuilder.build(PostCompilerBuilder.java:298)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.resources 4 75 2014-07-11 18:22:09.832
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 com.android.ide.eclipse.adt 4 75 2014-07-11 18:22:09.832
+!MESSAGE Errors running builder 'Android Pre Compiler' on project 'sample'.
+!STACK 0
+java.lang.NullPointerException
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativePath(ChangedFileSetHelper.java:188)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getRelativeAndroidOut(ChangedFileSetHelper.java:193)
+	at com.android.ide.eclipse.adt.internal.build.builders.ChangedFileSetHelper.getTextSymbols(ChangedFileSetHelper.java:124)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:399)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.605
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.607
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.609
+!MESSAGE Start processing for 10 annotations on 17 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.623
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.625
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity, com.tt.pin.activity.PullToRefreshListActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.626
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.627
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.632
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.633
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.634
+!MESSAGE Validating with EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.635
+!MESSAGE Validating with EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.635
+!MESSAGE Validating with ViewByIdHandler: [thirdTitle, title, tv1, myButton4, subtitle, myButton2, myButton1, myButton5, myButton3, myButton6, secondTitle, firstTitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.637
+!MESSAGE Validating with ClickHandler: [void myButtont() , void stopClick() , void resetClick() , void pulltofresh() , void gotoListview() , void gotoClick() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.640
+!MESSAGE Validating with RootContextHanlder: [ctx]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.640
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.641
+!MESSAGE Validating with AfterViewsHandler: [void init() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.641
+!MESSAGE Validating with UiThreadHandler: [void updateTextView(java.lang.String) , void updateMainUi() , void resetTextView() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.642
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() , public void dosomethingInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.643
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.643
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity, com.tt.pin.activity.MyViewGroupActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.646
+!MESSAGE Processing root elements EBeanHandler: [com.tt.pin.task.TestBgTask]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.646
+!MESSAGE Processing root elements EViewGroupHandler: [com.tt.pin.view.TitleWithSubtitle]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.647
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.650
+!MESSAGE Number of files generated by AndroidAnnotations: 4
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.650
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.651
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.657
+!MESSAGE Generating class: com.tt.pin.activity.MyViewGroupActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.661
+!MESSAGE Generating class: com.tt.pin.task.TestBgTask_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.664
+!MESSAGE Generating class: com.tt.pin.view.TitleWithSubtitle_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.667
+!MESSAGE Time measurements: [Whole Processing = 59 ms], [Generate Sources = 18 ms], [Extract Annotations = 13 ms], [Validate Annotations = 10 ms], [Find R Classes = 7 ms], [Process Annotations = 7 ms], [Extract Manifest = 2 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.668
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.672
+!MESSAGE Start processing for 0 annotations on 4 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.673
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.673
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.674
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.674
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:22.674
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.123
+!MESSAGE Resolve log file to C:\Users\shitao.tommy\workspace\Pin\bin\androidannotations.log
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.125
+!MESSAGE Initialize AndroidAnnotations 3.0.1 with options {phase=BUILD}
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.126
+!MESSAGE Start processing for 6 annotations on 3 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.135
+!MESSAGE AndroidManifest.xml file found in parent folder C:\Users\shitao.tommy\workspace\Pin: C:\Users\shitao.tommy\workspace\Pin\AndroidManifest.xml
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.137
+!MESSAGE AndroidManifest.xml found: AndroidManifest [applicationPackage=com.tt.pin, componentQualifiedNames=[com.tt.pin.MainActivity_, com.tt.pin.activity.MyViewGroupActivity_, com.tt.pin.view.expandlistview.ExpandListview, com.tt.pin.activity.ListviewActivity, com.tt.pin.activity.PullToRefreshListActivity], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=19]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.138
+!MESSAGE Found project R class: com.tt.pin.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.139
+!MESSAGE Found Android class: android.R
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.144
+!MESSAGE Validating elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.145
+!MESSAGE Validating with EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.145
+!MESSAGE Validating with ViewByIdHandler: [tv1, myButton6, myButton1, myButton2, myButton3, myButton5, myButton4]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.147
+!MESSAGE Validating with ClickHandler: [void gotoClick() , void gotoListview() , void stopClick() , void pulltofresh() , void resetClick() , void myButtont() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.148
+!MESSAGE Validating with BeanHandler: [tbt]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.149
+!MESSAGE Validating with UiThreadHandler: [void resetTextView() , void updateTextView(java.lang.String) ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.149
+!MESSAGE Validating with BackgroundHandler: [void doSomeInBack() ]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.150
+!MESSAGE Processing root elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.150
+!MESSAGE Processing root elements EActivityHandler: [com.tt.pin.MainActivity]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.152
+!MESSAGE Processing enclosed elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.154
+!MESSAGE Number of files generated by AndroidAnnotations: 1
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.154
+!MESSAGE Writting following API classes in project: []
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.155
+!MESSAGE Generating class: com.tt.pin.MainActivity_
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.167
+!MESSAGE Time measurements: [Whole Processing = 40 ms], [Generate Sources = 13 ms], [Extract Annotations = 7 ms], [Find R Classes = 6 ms], [Validate Annotations = 6 ms], [Extract Manifest = 3 ms], [Process Annotations = 3 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.168
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.170
+!MESSAGE Start processing for 0 annotations on 1 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.170
+!MESSAGE Time measurements: [Whole Processing = 0 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.171
+!MESSAGE Finish processing
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.171
+!MESSAGE Start processing for 0 annotations on 0 elements
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.172
+!MESSAGE Time measurements: [Whole Processing = 1 ms], 
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2014-07-11 18:24:48.172
+!MESSAGE Finish processing

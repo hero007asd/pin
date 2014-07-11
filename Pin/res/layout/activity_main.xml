@@ -47,4 +47,10 @@
         android:layout_height="wrap_content"
         android:text="go to listview"
         android:layout_below="@id/my_button4"/>
+    <Button 
+        android:id="@+id/my_button6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="pulltofreshlistview"
+        android:layout_below="@id/my_button5"/>
 </RelativeLayout>
